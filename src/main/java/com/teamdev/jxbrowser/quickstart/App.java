@@ -1,4 +1,4 @@
-package com.teamdev.jxbrowser.quickstart;/*
+/*
  *  Copyright 2024, TeamDev. All rights reserved.
  *
  *  Redistribution and use in source and/or binary forms, with or without
@@ -17,6 +17,8 @@ package com.teamdev.jxbrowser.quickstart;/*
  *  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  *  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
+
+package com.teamdev.jxbrowser.quickstart;
 
 import static com.teamdev.jxbrowser.engine.RenderingMode.HARDWARE_ACCELERATED;
 
