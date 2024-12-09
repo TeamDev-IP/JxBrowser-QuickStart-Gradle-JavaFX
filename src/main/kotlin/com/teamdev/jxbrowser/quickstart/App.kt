@@ -1,4 +1,4 @@
-
+package com.teamdev.jxbrowser.quickstart
 
 import com.teamdev.jxbrowser.dsl.Engine
 import com.teamdev.jxbrowser.dsl.JxBrowserLicense

@@ -1,4 +1,4 @@
-# JxBrowser in JavaFX Gradle Project
+# JxBrowser in JavaFX Gradle project
 
 This example demonstrates how to configure a Gradle project with JxBrowser to embed a JavaFX `BrowserView` widget into
 a JavaFX desktop application to display web pages.
@@ -7,7 +7,7 @@ a JavaFX desktop application to display web pages.
 
 To compile and run this example please make sure you use Java 17 or higher.
 
-## Download the Project
+## Download the project
 
 Clone this repository using the following command:
 
@@ -16,12 +16,12 @@ Clone this repository using the following command:
  cd JxBrowser-QuickStart-Gradle-JavaFX
  ```
 
-## Get License
+## Get license
 
 Download a free 30-day trial key by sending a request via
 the [web form](https://www.teamdev.com/jxbrowser#evaluate).
 
-## Run the JavaFX Application
+## Run the JavaFX application
 
 Use the following command:
 
