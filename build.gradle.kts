@@ -56,7 +56,7 @@ application {
     mainClass.set("com.teamdev.jxbrowser.quickstart.gradle.javafx.App")
 
     // Alternatively, you can run a Kotlin example, as follows:
-    // mainClass.set("com.teamdev.jxbrowser.quickstart.gradle.javafx.AppKt")
+    // mainClass.set("com.teamdev.jxbrowser.quickstart.gradle.javafx.KotlinAppKt")
 }
 
 tasks.withType<JavaExec> {

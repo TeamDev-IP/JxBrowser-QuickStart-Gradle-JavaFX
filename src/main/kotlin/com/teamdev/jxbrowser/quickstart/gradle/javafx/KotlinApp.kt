@@ -21,7 +21,6 @@
 package com.teamdev.jxbrowser.quickstart.gradle.javafx
 
 import com.teamdev.jxbrowser.dsl.Engine
-import com.teamdev.jxbrowser.dsl.JxBrowserLicense
 import com.teamdev.jxbrowser.engine.RenderingMode.HARDWARE_ACCELERATED
 import com.teamdev.jxbrowser.view.javafx.BrowserView
 import javafx.application.Application
@@ -34,7 +33,7 @@ import javafx.stage.Stage
  * (equivalent of the Chromium tab), embed a JavaFX BrowserView component into JavaFX
  * scene to display content of the loaded web page, load the required web page.
  */
-class App : Application() {
+class KotlinApp : Application() {
     override fun start(primaryStage: Stage) {
         // Initialize Chromium.
         val engine = Engine(HARDWARE_ACCELERATED)
@@ -63,5 +62,5 @@ class App : Application() {
 }
 
 fun main() {
-    App().run()
+    KotlinApp().run()
 }
