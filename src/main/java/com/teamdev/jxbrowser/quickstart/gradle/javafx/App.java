@@ -18,9 +18,10 @@
  *  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+package com.teamdev.jxbrowser.quickstart.gradle.javafx;
+
 import static com.teamdev.jxbrowser.engine.RenderingMode.HARDWARE_ACCELERATED;
 
-import com.teamdev.jxbrowser.browser.Browser;
 import com.teamdev.jxbrowser.engine.Engine;
 import com.teamdev.jxbrowser.view.javafx.BrowserView;
 import javafx.application.Application;
@@ -33,7 +34,7 @@ import javafx.stage.Stage;
  * (equivalent of the Chromium tab), embed a JavaFX BrowserView component into JavaFX
  * scene to display content of the loaded web page, load the required web page.
  */
-public final class HelloFX extends Application {
+public final class App extends Application {
 
     @Override
     public void start(Stage primaryStage) {
