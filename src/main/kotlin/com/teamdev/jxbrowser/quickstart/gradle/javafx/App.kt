@@ -34,7 +34,7 @@ import javafx.stage.Stage
  * (equivalent of the Chromium tab), embed a JavaFX BrowserView component into JavaFX
  * scene to display content of the loaded web page, load the required web page.
  */
-class HelloFxKt : Application() {
+class App : Application() {
     override fun start(primaryStage: Stage) {
         // Initialize Chromium.
         val engine = Engine(HARDWARE_ACCELERATED)
@@ -63,5 +63,5 @@ class HelloFxKt : Application() {
 }
 
 fun main() {
-    HelloFxKt().run()
+    App().run()
 }
