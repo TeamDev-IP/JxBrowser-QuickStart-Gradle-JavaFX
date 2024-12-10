@@ -19,18 +19,12 @@
  */
 
 plugins {
-    // Apply the java plugin to add support for Java
     java
-
-    kotlin("jvm") version "2.0.0"
-
-    // Apply the application plugin to add support for building a CLI application
     application
-
-    // Apply OpenJFX plugin.
+    kotlin("jvm") version "2.0.0"
     id("org.openjfx.javafxplugin") version "0.0.14"
 
-    // Provides convenience methods for adding JxBrowser dependencies into a project
+    // Provides convenience methods for adding JxBrowser dependencies into a project.
     id("com.teamdev.jxbrowser") version "1.2.1"
 }
 
@@ -39,17 +33,17 @@ repositories {
 }
 
 jxbrowser {
-    version = "8.1.0"
+    version = "8.2.0"
 }
 
 dependencies {
-    // Use JxBrowser cross-platform binaries
-    implementation(jxbrowser.crossPlatform)
+    // Detects the current platform and adds the corresponding Chromium binaries.
+    implementation(jxbrowser.currentPlatform)
 
-    // Use JxBrowser JavaFX GUI toolkit
+    // Adds dependency to the JavaFX UI toolkit integration.
     implementation(jxbrowser.javafx)
 
-    // Use JxBrowser Kotlin DSL
+    // Adds dependency to the JxBrowser Kotlin DSL.
     implementation(jxbrowser.kotlin)
 }
 
@@ -58,8 +52,11 @@ javafx {
 }
 
 application {
-    // Define the main class for the application
-    mainClass.set("com.teamdev.jxbrowser.quickstart.App")
+    // Define the main class for the application.
+    mainClass.set("com.teamdev.jxbrowser.quickstart.gradle.javafx.App")
+
+    // Alternatively, you can run a Kotlin example, as follows:
+    // mainClass.set("com.teamdev.jxbrowser.quickstart.gradle.javafx.AppKt")
 }
 
 tasks.withType<JavaExec> {
