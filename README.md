@@ -17,7 +17,7 @@ Use the following command to start the application:
 
 Once launched, the app loads the [HTML5 test page][html5-test-page]:
 
-![JavaFX BrowserView][javafx-browser-view]
+![BrowserView in JavaFX app][javafx-browser-view]
 
 [web-form]: https://www.teamdev.com/jxbrowser#evaluate
 [html5-test-page]: https://html5test.teamdev.com
