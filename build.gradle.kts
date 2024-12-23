@@ -22,7 +22,7 @@ plugins {
     java
     application
     kotlin("jvm") version "2.0.0"
-    id("org.openjfx.javafxplugin") version "0.0.14"
+    id("org.openjfx.javafxplugin") version "0.1.0"
 
     // Provides convenience methods for adding JxBrowser dependencies into a project.
     id("com.teamdev.jxbrowser") version "1.2.1"
@@ -33,7 +33,7 @@ repositories {
 }
 
 jxbrowser {
-    version = "8.2.0"
+    version = "8.2.1"
 }
 
 dependencies {
