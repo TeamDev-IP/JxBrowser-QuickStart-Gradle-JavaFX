@@ -20,7 +20,7 @@
 
 package com.teamdev.jxbrowser.quickstart.gradle.javafx
 
-import com.teamdev.jxbrowser.dsl.Engine
+import com.teamdev.jxbrowser.engine.Engine
 import com.teamdev.jxbrowser.engine.RenderingMode.HARDWARE_ACCELERATED
 import com.teamdev.jxbrowser.view.javafx.BrowserView
 import javafx.application.Application
@@ -36,7 +36,7 @@ import javafx.stage.Stage
 class KotlinApp : Application() {
     override fun start(primaryStage: Stage) {
         // Initialize Chromium.
-        val engine = Engine(HARDWARE_ACCELERATED)
+        val engine = Engine.newInstance(HARDWARE_ACCELERATED)
 
         // Create a Browser instance.
         val browser = engine.newBrowser()

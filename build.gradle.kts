@@ -33,7 +33,7 @@ repositories {
 }
 
 jxbrowser {
-    version = "8.2.1"
+    version = "7.41.6"
 }
 
 dependencies {
@@ -42,9 +42,6 @@ dependencies {
 
     // Adds dependency to the JavaFX UI toolkit integration.
     implementation(jxbrowser.javafx)
-
-    // Adds dependency to the JxBrowser Kotlin DSL.
-    implementation(jxbrowser.kotlin)
 }
 
 javafx {
