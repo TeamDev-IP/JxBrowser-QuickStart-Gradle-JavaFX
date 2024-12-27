@@ -4,7 +4,7 @@ This example demonstrates how to configure a Gradle project with JxBrowser to em
 
 ## Prerequisites
 
-* Java 17 or newer.
+* Java 8 or newer.
 * Your JxBrowser license key, or a [free 30-day evaluation key][web-form].
 
 ## Run the JavaFX application
