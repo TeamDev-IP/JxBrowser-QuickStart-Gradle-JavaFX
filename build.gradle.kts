@@ -22,7 +22,6 @@ plugins {
     java
     application
     kotlin("jvm") version "2.0.0"
-    id("org.openjfx.javafxplugin") version "0.1.0"
 
     // Provides convenience methods for adding JxBrowser dependencies into a project.
     id("com.teamdev.jxbrowser") version "1.2.1"
@@ -42,10 +41,6 @@ dependencies {
 
     // Adds dependency to the JavaFX UI toolkit integration.
     implementation(jxbrowser.javafx)
-}
-
-javafx {
-    modules("javafx.controls")
 }
 
 application {
