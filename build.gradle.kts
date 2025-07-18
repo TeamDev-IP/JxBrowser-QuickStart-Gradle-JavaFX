@@ -33,7 +33,7 @@ repositories {
 }
 
 jxbrowser {
-    version = "8.9.2"
+    version = "8.9.3"
 }
 
 dependencies {
