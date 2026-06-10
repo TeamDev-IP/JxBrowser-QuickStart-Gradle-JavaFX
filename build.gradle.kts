@@ -50,7 +50,7 @@ kotlin {
 }
 
 jxbrowser {
-    version = "9.1.1"
+    version = "9.1.2"
 }
 
 dependencies {
